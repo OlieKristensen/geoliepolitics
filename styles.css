@@ -30,12 +30,14 @@ nav ul li {
     margin-right: 10px;
     text-align: center;
     colour: #62A2BB;
+    justify-content: center;
 }
 
 nav ul li a {
     color: #62A2BB;
     text-decoration: none;
     text-align: center;
+    justify-content: center;
 }
 main {
     padding: 2rem;
