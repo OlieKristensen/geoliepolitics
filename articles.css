@@ -56,14 +56,3 @@ main {
 .article-list li {
     margin-bottom: 10px;
 }
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
