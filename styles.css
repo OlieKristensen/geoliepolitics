@@ -41,6 +41,7 @@ nav ul li a {
 main {
     padding: 2rem;
     text-align: center;
+    justify-content: center;
     
 ul {
     list-style-type: none;
