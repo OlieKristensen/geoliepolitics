@@ -6,8 +6,9 @@ body {
 }
 
 header {
-    background: #62A2BB;
-    color: #0A0A0A;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
     text-align: center;
 }
 
@@ -23,13 +24,12 @@ nav ul {
 
 nav ul li {
     display: inline;
-    padding: 0px;
+    padding: 20px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #fff;
-}
 
 main {
     padding: 2rem;
