@@ -8,8 +8,6 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
 }
 
 header {
@@ -20,40 +18,37 @@ header {
 }
 
 nav ul {
-    list-style-type: none;
+    background: #444;
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    list-style: none;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    padding: 20px;
 }
 
 nav ul li a {
-    color: #fff;
     text-decoration: none;
+    color: #fff;
 }
+
 main {
-    padding: 20px;
+    padding: 2rem;
+    text-align: center;
 }
 
-.article-list {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+footer {
+    background-color: #62A2BB;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
 
-.article-list h2 {
-    margin-bottom: 10px;
-}
-
-.article-list ul {
-    padding-left: 20px;
-}
-
-.article-list li {
-    margin-bottom: 10px;
-}
 .articles-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
