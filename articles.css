@@ -51,7 +51,7 @@ footer {
 
 .articles-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for larger screens */
     gap: 20px;
     padding: 20px;
 }
@@ -66,7 +66,11 @@ footer {
 
 .article-box img {
     max-width: 100%;
+    max-height: 200px; /* Add a max-height to limit the height of the images */
     height: auto;
+    width: auto;
+    display: block;
+    margin: 0 auto; /* Center the images */
 }
 
 .article-box h2 {
@@ -74,13 +78,7 @@ footer {
     font-size: 1.2rem;
 }
 
-.articles-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns for larger screens */
-    gap: 20px;
-    padding: 20px;
-}
-
+/* Responsive Adjustments */
 @media (max-width: 768px) {
     .articles-container {
         grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
