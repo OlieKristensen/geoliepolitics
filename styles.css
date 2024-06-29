@@ -13,31 +13,24 @@ body {
 }
 
 header {
-    background-color: #62A2BB;
-    color: #62A2BB;
+    background-color: #333;
+    color: #fff;
     padding: 10px 20px;
     text-align: center;
 }
 
 nav ul {
     list-style-type: none;
-    text-align: center;
-    justify-content: center;
 }
 
 nav ul li {
     display: inline;
     margin-right: 10px;
-    text-align: center;
-    colour: #62A2BB;
-    justify-content: center;
 }
 
 nav ul li a {
-    color: #62A2BB;
+    color: #fff;
     text-decoration: none;
-    text-align: center;
-    justify-content: center;
 }
 main {
     padding: 2rem;
