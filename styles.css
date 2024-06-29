@@ -52,13 +52,6 @@ html, body {
     padding: 0;
 }
 
-/* Reset default margin and padding */
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 /* Flexbox styles to center the image */
 .image-container {
     display: flex; /* Use flexbox for centering */
