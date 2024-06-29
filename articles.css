@@ -49,7 +49,6 @@ footer {
     padding: 10px 0;
 }
 
-/* Articles Page Specific Styles */
 .articles-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
@@ -73,4 +72,23 @@ footer {
 .article-box h2 {
     margin-top: 10px;
     font-size: 1.2rem;
+}
+
+.articles-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for larger screens */
+    gap: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .articles-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .articles-container {
+        grid-template-columns: 1fr; /* 1 column for small screens */
+    }
 }
